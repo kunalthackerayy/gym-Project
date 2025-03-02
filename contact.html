@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - KunalFitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+    <script src="contact.js" defer></script>
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-brand">KunalFitness</div>
+                <ul class="navbar flex items-center">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="contact-hero">
+                <h1 class="text-center my-2">Contact Us</h1>
+                <p class="text-center">Have questions or want to learn more? Reach out to us and we'll get back to you shortly.</p>
+            </section>
+
+            <section class="contact-container">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <h3>Our Location</h3>
+                        <p>123 Fitness Street</p>
+                        <p>Mumbai, Maharashtra 400001</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <h3>Phone Number</h3>
+                        <p>+91 98765 43210</p>
+                        <p>Mon-Sat: 6:00 AM - 10:00 PM</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">✉️</div>
+                        <h3>Email</h3>
+                        <p>info@kunalfitness.com</p>
+                        <p>support@kunalfitness.com</p>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">🕒</div>
+                        <h3>Working Hours</h3>
+                        <p>Monday - Friday: 5:00 AM - 11:00 PM</p>
+                        <p>Saturday - Sunday: 6:00 AM - 9:00 PM</p>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Select an option</option>
+                                <option value="membership">Membership Inquiry</option>
+                                <option value="classes">Class Information</option>
+                                <option value="training">Personal Training</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn form-btn">Send Message</button>
+                        <p id="formStatus" class="form-status"></p>
+                    </form>
+                </div>
+            </section>
+            
+            <section class="map-section">
+                <h2 class="text-center my-2">Find Us</h2>
+                <div class="map-container">
+                    <!-- Replace the src attribute with your actual Google Maps embed code -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.1160984904!2d72.7164192766853!3d19.082197839333903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1645947337233!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; KunalFitness.com | All rights reserved
+        </footer>
+    </div>
+</body>
+
+</html>

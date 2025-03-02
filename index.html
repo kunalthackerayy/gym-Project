@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KunalFitness - The best fitness gym in the town</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="timer.js"></script>
+    <link rel="stylesheet" href="utils.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-brand">KunalFitness</div>
+                <ul class="navbar flex items-center">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbellimg" src="dumbell.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">Achieve Your Fitness Goals With KunalFitness</h1>
+                        <p class="text-center">Welcome to KunalFitness, where we transform lives through personalized fitness programs, 
+                            state-of-the-art equipment, and expert trainers. Whether you're a beginner or a fitness enthusiast, our 
+                            supportive community will help you reach your full potential.</p>
+                            <!-- Display the countdown timer in an element -->
+                            <p class="deal text-center">The deal ends in <span id="demo"></span></p>
+                            <div class="buttons">
+                                <button class="btn">Join now</button>
+                                <button class="btn">Contact Us</button>
+                            </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="gym.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Membership Plans</h1>
+                <p class="my-2">Choose the perfect membership plan that fits your fitness journey. Wheather 
+                    you're just starting out or a seasoned fitness enthusiast, we have options designed to 
+                    meet your needs and help you achieve your goals. All plans include access to our supportive
+                    community and fitness assessment.
+                </p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Basic</h2>
+                        <ul>
+                            <li class="highlighted">₹999/month</li>
+                            <li>Gym access (6 AM - 10 PM)</li>
+                            <li>Basic equipment usage</li>
+                            <li>1 Fitness assessment</li>
+                            <li>Online workout guides</li>
+                            <li><button class="btn">Join Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Pro</h2>
+                        <ul>
+                            <li class="highlighted">₹1,999/month</li>
+                            <li>24/7 Gym access</li>
+                            <li>Full equipment usage</li>
+                            <li>2 Personal training sessions</li>
+                            <li>Nutrition consultation</li>
+                            <li><button class="btn">Join Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Premium</h2>
+                        <ul>
+                            <li class="highlighted">₹3,999/month</li>
+                            <li>24/7 Gym access</li>
+                            <li>Full equipment usage</li>
+                            <li>8 Personal training sessions</li>
+                            <li>Custom diet & workout plan</li>
+                            <li><button class="btn">Join Now</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Compare Plans</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Basic</th>
+                                <th>Pro</th>
+                                <th>Premium</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row" class="text-start">Gym Access</th>
+                                <td>Limited Hours</td>
+                                <td>24/7</td>
+                                <td>24/7</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Group Classes</th>
+                                <td>2 per week</td>
+                                <td>Unlimited</td>
+                                <td>Unlimited</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Personal Training</th>
+                                <td>-</td>
+                                <td>2 sessions</td>
+                                <td>8 sessions</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Nutrition Plan</th>
+                                <td>-</td>
+                                <td>Basic</td>
+                                <td>Custom</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Locker Access</th>
+                                <td>-</td>
+                                <td>Yes</td>
+                                <td>Premium Locker</td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="text-start">Guest Passes</th>
+                                <td>-</td>
+                                <td>1 per month</td>
+                                <td>3 per month</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; KunalFitness.com | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
